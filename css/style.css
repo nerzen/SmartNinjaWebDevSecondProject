@@ -1,0 +1,516 @@
+*{
+
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+
+}
+
+
+/*-------------------- HEADER --------------------- */
+
+#headerWrapper{
+
+  width:auto;
+  position:relative;
+}
+#leftNavImg{
+
+  position:fixed;
+  width:200px;
+  height:70px;
+  margin-top:10px;
+  margin-left:20px;
+  
+
+  
+
+}
+#leftNavimgText{
+
+  
+  display:inline;
+  position:fixed;
+  width:200px;
+  height:70px;
+  left:235px;
+  top:15px;
+  font-size:48px;
+  font-family:'Courier New', Courier, monospace;
+  color:whitesmoke;
+ 
+
+}
+#rightNavSpan{
+
+
+  position:fixed;
+  height:80px;
+  right:0;
+ 
+  
+
+
+}
+.rightNavButton{
+
+  border:none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+  height:80px;
+  background-color:transparent;
+  
+  
+
+
+}
+#rightNavButtonHelp{
+
+  border:none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 15px 32px;
+  height:80px;
+  background-color: #008CBA;
+
+  
+
+
+}
+/*-------------------- BODY WRAPPER --------------------- */
+#bodyWrapper{
+
+  background-image:url("../imgs/pageWallpaper.jpg");
+  background-size:cover;
+  text-align:center;
+  height:960px;
+
+}
+#bodyDriveLogo
+{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  height:100px;
+  width:100px;
+  top:380px;
+
+}
+#bodyWelcomeText
+{
+
+  display:inline;
+  position:relative;
+  height:100px;
+  width:100px;
+  top:400px;
+  font-family:'Courier New', Courier, monospace;
+  font-size:54px;
+  color:white;
+
+
+}
+#bodyWrapperButton{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-decoration: none;
+  background-color:transparent;
+  background-color: #008CBA;
+  font-size: 16px;
+  padding: 15px 32px;
+  height:80px;
+  top:430px;
+
+}
+/*------------ FIRST ODD SECTION WRAPPER-------------- */
+
+.oddSectionWrapper{
+
+
+  height:500px;
+  width:auto;
+  
+
+
+}
+#oddSectionImageContainerOne{
+
+  
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  right:350px;
+  top:55px;
+  height:400px;
+  width:450px;
+
+
+}
+
+.oddFirstSectionImages{
+
+  position:relative;
+  top:35px;
+  left:25px;
+  width:100px;
+  height:100px;
+  
+
+}
+#textContainerSectionOne{
+
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:600px;
+  height:300px;
+  bottom:300px;
+  left:225px;
+ 
+
+}
+.sectionTitle{
+
+  display:inline-block;
+  position:relative;
+  font-size:48px;
+  font-family:'Courier New', Courier, monospace;
+
+
+}
+
+.sectionText{
+
+  display:inline-block;
+  position:relative;
+  font-size:27px;
+  top:25px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+/*------------ FIRST EVEN SECTION WRAPPER-------------- */
+
+.evenSectionWrapper{
+
+  width:auto;
+  height:400px;
+  background-image:url("../imgs/pageWallpaper.jpg");
+  background-size:cover;
+
+}
+
+/*------------ SECOND ODD SECTION WRAPPER-------------- */
+
+.oddSectionWrapper{
+
+  height:500px;
+  width:auto;
+  background-color:white;
+  
+
+}
+#textContainerSectionTwo{
+
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  top:75px;
+  right:350px;
+  width:600px;
+  height:300px;
+
+
+}
+.sectionTitle{
+
+  display:inline-block;
+  position:relative;
+  font-size:48px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+.sectionText{
+
+  display:inline-block;
+  position:relative;
+  font-size:27px;
+  top:25px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+#oddSectionImageContainerTwo{
+
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  height:400px;
+  width:650px;
+  bottom:250px;
+  left:325px;
+
+}
+#oddSecondSectionImage
+{
+
+  position:relative;
+  width:650px;
+  height:400px;
+  
+
+
+}
+/*------------ THIRD ODD SECTION WRAPPER-------------- */
+
+#oddSectionImageContainerThree{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  top:80px;
+  width:820px;
+  height:200px;
+
+}
+#oddThirdSectionImage{
+
+  position:relative;
+  height:100px;
+  width:auto;
+
+}
+#textContainerSectionThree{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  top:50px;
+  left:30px;
+  width:820px;
+  height:170px;
+
+}
+.sectionTitle{
+
+  display:inline-block;
+  position:relative;
+  font-size:48px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+.sectionText{
+
+  display:inline-block;
+  position:relative;
+  font-size:27px;
+  top:25px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+/*------------ FOURTH ODD SECTION WRAPPER-------------- */
+
+#oddSectionImageContainerFour{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:115px;
+  height:100px;
+  top:100px;
+
+}
+#logoSectionFour{
+
+  position:relative;
+  width:auto;
+  height:100px;
+
+}
+#textContainerSectionFour{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:700px;
+  height:50px;
+  top:130px;
+ 
+
+}
+#textContainerSectionFourOne{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  height:50px;
+  top:130px;
+  
+
+}
+.sectionTitle{
+
+  display:inline-block;
+  position:relative;
+  font-size:40px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+#sectionFourButton{
+
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 32px;
+  height:80px;
+  width:200px;
+  top:150px;
+  background-color: #008CBA;
+
+}
+
+/*------------ FOOTER SECTION WRAPPER-------------- */
+
+#footerNav
+{
+
+  width:auto;
+  height:50px;
+  background-color:whitesmoke;
+  border:solid 1px gainsboro;
+
+}
+#footerNavFollow{
+
+  position:relative;
+  font-family:'Courier New', Courier, monospace;
+  width:200px;
+  height:60px;
+  left:62px;
+  top:15px;
+
+}
+#footerNavFollow img{
+
+  position:relative;
+  width:32px;
+  height:32px;
+  left:110px;
+  bottom:25px;
+
+}
+
+#footerWrapper
+{
+
+  display:table;
+  width:auto;
+  height:400px;
+  background-color:whitesmoke;
+
+}
+.footerRow
+{
+
+  display:table-cell;
+  width:500px;
+  height:400;
+  background-color:whitesmoke;
+}
+.footerTitle{
+
+  position:relative;
+  font-family:'Courier New', Courier, monospace;
+  text-align:center;
+  top:80px;
+  font-weight:bold;
+
+}
+.footerColumnElementsContainer{
+
+  position:relative;
+  margin-left:auto;
+  margin-right:auto;
+  width:250px;
+  height:300px;
+  top:100px;
+
+}
+.fotoerUlElements{
+
+  font-family:'Courier New', Courier, monospace;
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  list-style-type: none;
+
+}
+
+/*-------------------- STYLING --------------------- */
+
+
+.rightNavButton:hover{
+
+  
+  background-color: rgb(1, 111, 148);
+ 
+
+}
+
+#rightNavButtonHelp:hover{
+
+  color:white;
+  font-weight:bold;
+  background-color: rgb(1, 111, 148);
+
+}
+
+#sectionFourButton:hover{
+
+  
+  color:white;
+  font-weight:bold;
+  background-color: rgb(1, 111, 148);
+
+}
+.footerAelement:hover{
+
+  color:blue;
+  text-decoration:underline;
+
+
+}
+a{
+
+  text-decoration:none;
+
+}
+a:visited{
+
+  color:white;
+
+}
+a:hover{
+
+  color:white;
+
+}
